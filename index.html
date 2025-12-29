@@ -1,24 +1,175 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Organic Chemistry Tutoring</title>
-  <meta charset="UTF-8">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      margin: 0;
+      line-height: 1.6;
+      background: #f8fafc;
+      color: #0f172a;
+    }
+    header {
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin-bottom: 0.5rem;
+      font-size: 2.5rem;
+    }
+    header p {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+    }
+    section {
+      padding: 3rem 1rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #020617;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      margin-bottom: 2rem;
+    }
+    .cta {
+      background: #020617;
+      color: white;
+      border-radius: 16px;
+      padding: 2.5rem;
+      text-align: center;
+    }
+    .cta a {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background: #22c55e;
+      color: #022c22;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 999px;
+    }
+    .cta a:hover {
+      background: #16a34a;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: #475569;
+      font-size: 0.9rem;
+    }
+    .contact {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    @media (min-width: 700px) {
+      .contact {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>Organic Chemistry Tutoring</h1>
-  <p>One-on-one tutoring for Organic Chemistry I & II.</p>
 
-  <h2>What I Offer</h2>
-  <ul>
-    <li>Reaction mechanisms</li>
-    <li>Spectroscopy (NMR, IR, MS)</li>
-    <li>Synthesis strategies</li>
-    <li>Exam prep</li>
-  </ul>
+  <header>
+    <h1>Organic Chemistry Tutoring</h1>
+    <p>Master Organic Chemistry with clear explanations, exam-focused strategies, and an unlimited supply of challenging multi-step synthesis problems — all with full answer keys.</p>
+  </header>
 
-  <h2>Pricing</h2>
-  <p>$60 per hour</p>
+  <section>
+    <div class="card">
+      <h2>Who I Tutor</h2>
+      <ul>
+        <li>High school students (intro & advanced chemistry)</li>
+        <li>Premed students</li>
+        <li>Organic Chemistry I</li>
+        <li>Organic Chemistry II</li>
+      </ul>
+    </div>
 
-  <a href="payment.html">Book a Session</a>
+    <div class="card">
+      <h2>What You Get</h2>
+      <ul>
+        <li>Step-by-step reaction mechanism explanations</li>
+        <li>Unlimited multi-step synthesis practice problems</li>
+        <li>Complete answer keys with strategic reasoning</li>
+        <li>Reaction pattern recognition and retrosynthesis training</li>
+        <li>Exam and MCAT-oriented problem-solving techniques</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Multi-Step Synthesis Focus</h2>
+      <p>
+        Students receive continuous access to original, exam-style multi-step synthesis problems. Each problem includes:
+      </p>
+      <ul>
+        <li>Functional group interconversions</li>
+        <li>Stereochemical control</li>
+        <li>Protecting group strategy</li>
+        <li>Full retrosynthetic breakdown</li>
+        <li>Detailed, written answer keys</li>
+      </ul>
+      <p>
+        New problems are introduced regularly, ensuring students never run out of high-quality practice.
+      </p>
+    </div>
+
+    <div class="cta">
+      <h2>Payment & Scheduling</h2>
+      <p>
+        Sessions are flexible and tailored to your course and goals. Payments are accepted via Venmo.
+      </p>
+      <a href="https://venmo.com/YOUR_VENMO_USERNAME" target="_blank">Pay with Venmo</a>
+      <p style="margin-top: 1rem; font-size: 0.9rem; opacity: 0.85;">
+        Replace <strong>YOUR_VENMO_USERNAME</strong> with your actual Venmo handle.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="card">
+      <h2>Contact Information</h2>
+      <div class="contact">
+        <div>
+          <p><strong>Email:</strong><br />
+            yourname@email.com
+          </p>
+          <p><strong>Availability:</strong><br />
+            Weekdays & weekends by appointment
+          </p>
+        </div>
+        <div>
+          <p><strong>Format:</strong><br />
+            Online (Zoom or similar)
+          </p>
+          <p><strong>Audience:</strong><br />
+            High school, premed, and university students
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Organic Chemistry Tutoring. Built with GitHub Pages.</p>
+  </footer>
+
 </body>
 </html>
